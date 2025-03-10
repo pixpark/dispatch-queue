@@ -1,0 +1,90 @@
+---
+BasedOnStyle: Google
+
+# 缩进宽度
+IndentWidth: 2
+
+# 使用空格而不是制表符
+UseTab: Never
+
+# 每行的最大长度
+ColumnLimit: 80
+
+# 在函数声明的返回类型后换行
+AlwaysBreakAfterReturnType: None
+
+# 在构造函数初始化列表的冒号后换行
+BreakConstructorInitializers: BeforeColon
+
+# 在模板声明后换行
+BreakTemplateDeclarations: Yes
+
+# 在二元运算符前换行
+BreakBeforeBinaryOperators: None
+
+# 在访问修饰符（public、private、protected）后缩进
+AccessModifierOffset: -1
+
+# 在命名空间内容前缩进
+NamespaceIndentation: None
+
+# 在 C++11 的初始化列表中使用大括号
+Cpp11BracedListStyle: true
+
+# 在条件语句中始终使用大括号
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+# 允许短函数放在一行
+AllowShortFunctionsOnASingleLine: Inline
+
+# 在函数定义的大括号前换行
+BreakBeforeBraces: Attach
+
+# 在 lambda 表达式的大括号前换行
+BreakBeforeLambdaBody: false
+
+# 在函数调用参数列表的逗号后换行
+BinPackArguments: true
+
+# 在模板参数列表的逗号后换行
+BinPackParameters: true
+
+# 在注释前添加空格
+SpacesBeforeTrailingComments: 2
+
+# 在指针和引用符号周围添加空格
+PointerAlignment: Left
+
+# 在 C++11 的 nullptr 中使用空格
+SpacesInLineCommentPrefix: 1
+
+# 在容器字面量中使用空格
+SpacesInContainerLiterals: true
+
+# 在条件语句的条件和括号之间添加空格
+SpaceBeforeParens: ControlStatements
+
+# 在模板参数列表的尖括号内添加空格
+SpacesInAngles: false
+
+# 在 lambda 表达式的捕获列表中使用空格
+SpacesInSquareBrackets: false
+
+# 在 C++11 的初始化列表中使用空格
+SpacesInCStyleCastParentheses: false
+
+# 在 C++11 的初始化列表中使用空格
+SpacesInParentheses: false
+
+# 在 C++11 的初始化列表中使用空格
+SpacesInParens: false
+
+# 在 C++11 的初始化列表中使用空格
+SpacesInParensOptions: false
+
+# 在 C++11 的初始化列表中使用空格
+SpacesInParensCustom: false
+
+# 在 C++11 的初始化列表中使用空格
+SpacesInParensCustom: false

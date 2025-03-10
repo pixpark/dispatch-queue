@@ -52,7 +52,7 @@ int main() {
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/DispatchQueue.git
+   git clone https://github.com/pixpark/dispatch-queue.git
    cd DispatchQueue
    ```
 

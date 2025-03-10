@@ -13,6 +13,3 @@ add_executable(DispatchQueueExample
     main.cpp
     dispatch_queue.cc
 )
-
-# Link threading library
-target_link_libraries(DispatchQueueExample pthread)

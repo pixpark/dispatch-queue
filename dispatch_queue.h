@@ -6,7 +6,6 @@
 #include <future>
 #include <mutex>
 #include <queue>
-#include <set>
 #include <thread>
 #include <vector>
 
@@ -31,7 +30,7 @@ class DispatchQueue {
    * @brief Constructs a new task queue.
    * @param type The type of the queue, determining whether tasks are executed serially or concurrently.
    */
-  explicit DispatchQueue(QueueType type);
+  explicit DispatchQueue(QueueType type = kSerial);
 
   /**
    * @brief Asynchronously executes a task by adding it to the queue.
